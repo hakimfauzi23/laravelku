@@ -38,3 +38,6 @@ Route::get('/pesan/gagal','NotifController@gagal');
 
 Route::get('/malasngoding','MalasngodingController@index');
 Route::get('/malasngoding/{nama}','MalasngodingController@index');
+
+Route::get('/kirimemail','MalasngodingController@index');
+
